@@ -14,8 +14,4 @@ trait Publisher
         subscribers.foreach (_.handle(this))
       
     }
-    
-  
-  
-
 }
